@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/mainMenu.uss?fileID=7433441132597879392&amp;guid=8cbafc2c1a5fdab4fb34fa55a35a62bd&amp;type=3#mainMenu" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-basis: auto; align-self: auto; align-items: center;">
+        <ui:Label text="Unity Asteroids" name="Header" style="-unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=8e9e0ef14e0cfb54383ca265a6e059a2&amp;type=3#NotInter-Regular&quot;); -unity-font-style: bold; font-size: 32px; -unity-text-align: middle-left; color: rgb(255, 255, 255); justify-content: flex-start; margin-top: 40px; padding-top: 4px;" />
+        <ui:VisualElement name="Buttons" style="flex-grow: 1; justify-content: center; flex-basis: 60%; width: 60%;">
+            <ui:Button text="New Game" name="ButtonNewGame" class="button" />
+            <ui:Button text="Quit Game" name="ButtonQuitGame" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
